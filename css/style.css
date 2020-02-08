@@ -1,0 +1,66 @@
+.lista-elementos-menu {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.lista-elementos-menu a {
+  color: white;
+  font-size: 18px;
+}
+
+.lista-elementos-menu a:hover {
+  color: #00b1be;
+}
+
+.lista-elementos-menu a i {
+  width: 30px;
+}
+
+.contenedor-usuario {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contenedor-usuario img {
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.contenedor-datos-usuario {
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.contenedor-datos-usuario p {
+  margin-bottom: 0;
+}
+
+.menu-navegacion-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor-acciones {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.boton {
+    background-color: white;
+    color: #1D1843;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 5px;
+    transition: all 0.4s;
+}
+
+.boton:hover {
+    cursor: pointer;
+    background-color: rgb(243, 243, 243);
+}

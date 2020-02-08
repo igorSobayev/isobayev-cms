@@ -1,0 +1,59 @@
+@font-face {
+  font-family: ifont;
+  src: url(../media/BellandhaSignature.ttf);
+}
+
+.custom {
+  font-family: ifont;
+  text-transform: none;
+  font-size: 40px !important;
+  padding-left: 40px !important;
+  color: white;
+}
+
+.custom:hover {
+  color: white;
+  text-decoration: none;
+}
+
+#banner {
+  background-image: url("../../media/images/top2.jpg") !important;
+}
+
+/* Contenedor principal que contiene toda la estructura */
+.contenedor-principal {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Menú de navegación superior */
+.menu-navegacion-top {
+  width: 100%;
+  height: 60px;
+  background-color: #30568b;
+  color: white;
+  z-index: 2;
+  border-bottom: 1px solid white;
+}
+
+/* Menú de navegación lateral */
+.menu-navegacion-left {
+  color: white;
+  width: 15%;
+  height: 100%;
+  background-color: #1d1843;
+}
+
+/* Contenedor del contenido de la web */
+.main-content {
+  width: 85%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.main-content div {
+  padding-bottom: 70px;
+}
